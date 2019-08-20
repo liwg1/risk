@@ -29,6 +29,7 @@
         <pagehelper.boot.version>1.2.5</pagehelper.boot.version>
         <jsoup.version>1.11.3</jsoup.version>
         <poi.version>3.17</poi.version>
+        <kaptcha.version>2.3.2</kaptcha.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -105,7 +106,12 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
-
+            <!--验证码 -->
+            <dependency>
+                <groupId>com.github.penggle</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

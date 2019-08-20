@@ -15,9 +15,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="risk-common" options="-parameters" />
-      <module name="risk-framework" options="-parameters" />
-      <module name="risk-system" options="-parameters" />
+      <module name="risk-common" options="" />
+      <module name="risk-framework" options="" />
+      <module name="risk-system" options="" />
     </option>
   </component>
 </project>
