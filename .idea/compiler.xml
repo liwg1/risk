@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="risk-framework" />
         <module name="risk-common" />
         <module name="risk-system" />
         <module name="risk" />
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="risk-common" options="-parameters" />
+      <module name="risk-framework" options="-parameters" />
       <module name="risk-system" options="-parameters" />
     </option>
   </component>

@@ -13,6 +13,7 @@
     <modules>
         <module>risk-system</module>
         <module>risk-common</module>
+        <module>risk-framework</module>
     </modules>
 
     <properties>
