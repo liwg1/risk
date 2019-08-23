@@ -6,13 +6,9 @@
         <groupId>com.ttcs</groupId>
         <artifactId>risk</artifactId>
         <version>1.0.0</version>
-        <relativePath/>
     </parent>
-    <groupId>com.ttcs</groupId>
-    <artifactId>risk-framework</artifactId>
-    <version>1.0.0</version>
-    <name>risk-framework</name>
 
+    <artifactId>risk-framework</artifactId>
     <description>framework框架核心</description>
 
     <properties>
@@ -30,6 +26,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!--Springboot测试-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <!--阿里数据库连接池 -->
@@ -56,20 +59,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+        <dependency>
+            <groupId>com.ttcs</groupId>
+            <artifactId>risk-system</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

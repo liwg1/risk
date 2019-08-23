@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="risk-framework" />
+        <module name="risk" />
         <module name="risk-common" />
         <module name="risk-system" />
-        <module name="risk" />
+        <module name="risk-web" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="risk-common" options="" />
       <module name="risk-framework" options="" />
       <module name="risk-system" options="" />
+      <module name="risk-web" options="" />
     </option>
   </component>
 </project>

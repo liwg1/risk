@@ -14,6 +14,7 @@
         <module>risk-system</module>
         <module>risk-common</module>
         <module>risk-framework</module>
+        <module>risk-web</module>
     </modules>
 
     <properties>
@@ -30,6 +31,8 @@
         <jsoup.version>1.11.3</jsoup.version>
         <poi.version>3.17</poi.version>
         <kaptcha.version>2.3.2</kaptcha.version>
+        <!--risk系统版本-->
+        <risk.version>1.0.0</risk.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -40,6 +43,17 @@
                 <version>2.1.1.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-log4j2</artifactId>
+            </dependency>
+
+            <!-- 加上这个才能辨认到log4j2.yml文件 -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-yaml</artifactId>
             </dependency>
 
             <!--阿里数据库连接池 -->
@@ -112,6 +126,35 @@
                 <artifactId>kaptcha</artifactId>
                 <version>${kaptcha.version}</version>
             </dependency>
+
+            <!--通用模块-->
+            <dependency>
+                <groupId>com.ttcs</groupId>
+                <artifactId>risk-common</artifactId>
+                <version>${risk.version}</version>
+            </dependency>
+
+            <!--核心模块-->
+            <dependency>
+                <groupId>com.ttcs</groupId>
+                <artifactId>risk-framework</artifactId>
+                <version>${risk.version}</version>
+            </dependency>
+
+            <!--系统模块-->
+            <dependency>
+                <groupId>com.ttcs</groupId>
+                <artifactId>risk-system</artifactId>
+                <version>${risk.version}</version>
+            </dependency>
+
+            <!--前端模块-->
+            <dependency>
+                <groupId>com.ttcs</groupId>
+                <artifactId>risk-web</artifactId>
+                <version>${risk.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

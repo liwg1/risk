@@ -6,12 +6,9 @@
         <groupId>com.ttcs</groupId>
         <artifactId>risk</artifactId>
         <version>1.0.0</version>
-        <relativePath/>
     </parent>
-    <groupId>com.ttcs</groupId>
+
     <artifactId>risk-common</artifactId>
-    <version>1.0.0</version>
-    <name>risk-common</name>
     <description>公共处理工程</description>
 
     <properties>
