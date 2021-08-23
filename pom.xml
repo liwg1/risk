@@ -28,7 +28,7 @@
         <commons.fileupload.version>1.3.3</commons.fileupload.version>
         <bitwalker.version>1.19</bitwalker.version>
         <pagehelper.boot.version>1.2.5</pagehelper.boot.version>
-        <jsoup.version>1.11.3</jsoup.version>
+        <jsoup.version>1.14.2</jsoup.version>
         <poi.version>3.17</poi.version>
         <kaptcha.version>2.3.2</kaptcha.version>
         <!--risk系统版本-->
